@@ -8,7 +8,7 @@
 #Usage: cruft_remover.sh
 
 read -p "Which folder do you want to remove cruft from? " folder_name
-read -p "How many days should a file be unmodified to be considered as cruft? " timeline
+read -p "How many days should a file have gone unmodified to be considered cruft? " timeline
 
 readarray -t search_result < <(find "${folder_name[@]}" -maxdepth 6 -type d,f -mtime "$timeline")
 
