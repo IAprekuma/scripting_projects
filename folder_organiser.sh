@@ -5,7 +5,7 @@
 
 #Description: This script will organise files in a given folder into sub folders based on their extensions. 
 
-#Usage: folder_organiser.sh
+#Usage: ./folder_organiser.sh
 
 read -p "Enter a path to the folder you want to organise: " folder_path
 while read line; do 
