@@ -5,7 +5,7 @@
 
 #Description: This script deletes files that haven't been modified for a certain amount of time.  
 
-#Usage: cruft_remover.sh
+#Usage: ./cruft_remover.sh
 
 read -p "Which folder do you want to remove cruft from? " folder_name
 read -p "How many days should a file have gone unmodified to be considered cruft? " timeline
